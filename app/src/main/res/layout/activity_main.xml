@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/anandabazar"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:onClick="gotoWebViewActivity"
+                android:src="@drawable/anandabazarproedit"/>
+
+            <ImageView
+                android:id="@+id/abela"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_below="@+id/anandabazar"
+                android:src="@drawable/abelaproedit"
+                android:onClick="gotoWebViewActivity"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/present"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/abela"
+                android:onClick="gotoWebViewActivity"
+                android:src="@drawable/presentproedit"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/aisamay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/present"
+                android:src="@drawable/aisamayproedit"
+                android:onClick="gotoWebViewActivity"
+
+
+                />
+
+
+            <ImageView
+                android:id="@+id/ajkal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aisamay"
+                android:src="@drawable/ajkalproedit"
+                android:onClick="gotoWebViewActivity"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/everyday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ajkal"
+                android:src="@drawable/everydayproedit"
+                android:onClick="gotoWebViewActivity"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/gonosakte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/everyday"
+                android:src="@drawable/gonosaktepro"
+                android:onClick="gotoWebViewActivity"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/karma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gonosakte"
+                android:src="@drawable/karmasangthanproedit"
+                android:onClick="gotoWebViewActivity"
+
+                />
+
+
+            <!-- <Button
+                 android:id="@+id/button"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="click me" />
+     -->
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+
